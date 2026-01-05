@@ -139,3 +139,6 @@ Metrics used:
 ## Conclusion
 
 This project demonstrates a real-world machine learning solution for fraud detection, emphasizing imbalanced data handling, probability-based predictions, and business-oriented evaluation metrics.
+
+<img width="397" height="383" alt="Screenshot 2026-01-05 173842" src="https://github.com/user-attachments/assets/188408c7-0474-43dd-b9b4-17f46ead5f79" />
+
