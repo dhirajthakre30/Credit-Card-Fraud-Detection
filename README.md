@@ -112,13 +112,6 @@ Metrics used:
 * Tuned decision threshold (lower than 0.5)
 
 * Flagged high-risk transactions for review
-
-## Sample Output
-  
- Fraud_Probability	Predicted_Class	Actual_Class
-0.96	1	1
-0.89	1	0
-0.75	1	1
   
 ## Results
 
