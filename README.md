@@ -1,12 +1,12 @@
 # Credit-Card-Fraud-Detection
 Predicting whether a credit card transaction is fraudulent or legitimate.
 
-# Project Overview
+## Project Overview
 
 Credit card fraud detection is a binary classification problem aimed at identifying fraudulent transactions while minimizing false alerts for genuine customers.
 This project builds and evaluates machine learning models on a highly imbalanced dataset, focusing on recall-driven fraud detection.
 
-# Business Objective
+## Business Objective
 
 * Detect fraudulent transactions early
 
@@ -14,7 +14,7 @@ This project builds and evaluates machine learning models on a highly imbalanced
 
 * Reduce false declines for legitimate users
 
-# Machine Learning Objective
+## Machine Learning Objective
 
 * Classify transactions as Fraud (1) or Non-Fraud (0)
 
@@ -22,13 +22,13 @@ This project builds and evaluates machine learning models on a highly imbalanced
 
 * Provide probability-based risk scoring for transaction review
 
-# Dataset
+## Dataset
 
 Source: Kaggle
 
 Dataset: Credit Card Fraud Detection (European Cardholders)
 
-# Dataset Characteristics
+## Dataset Characteristics
 * Attribute	Details
   
 * Total Transactions	284,807
@@ -39,9 +39,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
   
 * Target	Class (0 = Legit, 1 = Fraud)
 
-## Feature names are anonymized for privacy.
-
-# Key Challenge
+## Key Challenge
 
 * Class Imbalance
 
@@ -51,7 +49,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
 
 * Evaluation must focus on Recall, Precision, F1-Score, ROC-AUC
 
-# Tech Stack
+## Tech Stack
 
 * Python
 
@@ -61,7 +59,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
 
 * Imbalanced-learn (SMOTE)
 
-# Project Workflow
+## Project Workflow
 
 * Data Understanding & EDA
 
@@ -69,7 +67,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
 
 * Understand transaction amounts and fraud patterns
 
-# Data Preprocessing
+## Data Preprocessing
 
 * Scale Amount and Time
 
@@ -77,13 +75,13 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
 
 * Stratified train-test split
 
-# Handling Class Imbalance
+## Handling Class Imbalance
 
 * Applied SMOTE (Synthetic Minority Over-sampling Technique)
 
 * Compared with class-weighted models
 
-# Model Building
+## Model Building
 
 * Logistic Regression (Baseline)
 
@@ -91,7 +89,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
 
 * XGBoost Classifier
 
-# Model Evaluation
+## Model Evaluation
 
 Metrics used:
 
@@ -107,7 +105,7 @@ Metrics used:
 
  * Fraud Probability Scoring
 
-# Instead of only binary prediction:
+## Instead of only binary prediction:
 
 * Generated fraud probability scores
 
@@ -121,7 +119,7 @@ Fraud_Probability	Predicted_Class	Actual_Class
 0.89	1	0
 0.75	1	1
   
-# Results
+## Results
 
 * Improved fraud detection recall significantly
 
@@ -129,7 +127,7 @@ Fraud_Probability	Predicted_Class	Actual_Class
 
 * Enabled risk-based transaction monitoring
 
-# Future Improvements
+## Future Improvements
 
 * Cost-sensitive learning
 
@@ -137,6 +135,6 @@ Fraud_Probability	Predicted_Class	Actual_Class
 
 * Anomaly detection using Isolation Forest
 
-# Conclusion
+## Conclusion
 
 This project demonstrates a real-world machine learning solution for fraud detection, emphasizing imbalanced data handling, probability-based predictions, and business-oriented evaluation metrics.
