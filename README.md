@@ -39,7 +39,7 @@ Dataset: Credit Card Fraud Detection (European Cardholders)
   
 * Target	Class (0 = Legit, 1 = Fraud)
 
-# Feature names are anonymized for privacy.
+## Feature names are anonymized for privacy.
 
 # Key Challenge
 
